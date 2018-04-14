@@ -6,9 +6,9 @@ Supports:
         Realloc
         Free
         
-The memory allocator use 4 category segregated free list to store the blocks.__
-The maximum size of the allocator is 4 Page. ie. 16384 bytes.__
-Coalescing backward when malloc.__
+The memory allocator use 4 category segregated free list to store the blocks.<br />
+The maximum size of the allocator is 4 Page. ie. 16384 bytes.<br />
+Coalescing backward when malloc.<br />
 Forward coalescing only when sf_bark(). (When run out of space, call sf_bark() to allocate a new page)
 
 Built-in functions to check current state of the memory allocater:

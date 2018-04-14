@@ -19,7 +19,7 @@ Built-in functions to check current state of the memory allocater:
         * and if the memory payload is correctly aligned.
         * @param verbose If true, snapshot will additionally print out
         */
-        **void sf_snapshot(bool verbose);**
+        __ void sf_snapshot(bool verbose); __
         
         /**
         * Function which prints human readable block format

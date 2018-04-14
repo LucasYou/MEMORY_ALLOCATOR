@@ -6,8 +6,9 @@ Supports:
         Realloc
         Free
         
-###The memory allocator use 4 category segregated free list to store the blocks.
-###The maximum size of the allocator is 4 Page. ie. 16384 bytes.
+The memory allocator use 4 category segregated free list to store the blocks.\n
+
+The maximum size of the allocator is 4 Page. ie. 16384 bytes.
 
         
 Built-in functions to check current state of the memory allocater:

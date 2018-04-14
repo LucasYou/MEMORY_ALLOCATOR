@@ -19,14 +19,14 @@ Built-in functions to check current state of the memory allocater:
         * and if the memory payload is correctly aligned.
         * @param verbose If true, snapshot will additionally print out
         */
-        void sf_snapshot(bool verbose);
+        **void sf_snapshot(bool verbose);**
         
         /**
         * Function which prints human readable block format
         * readable format.
         * @param block Address of the block header in memory.
         */
-        void sf_blockprint(void* block);
+        **void sf_blockprint(void* block);**
         
         /**
         * Prints human readable block format
@@ -36,4 +36,4 @@ Built-in functions to check current state of the memory allocater:
         * @param data Pointer to payload data in memory (value returned by
         * sf_malloc).
         */
-        void sf_varprint(void *data);
+        **void sf_varprint(void *data);**
